@@ -1,0 +1,244 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: white;
+
+	/*background-color: #6fa8dc;*/
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: blue; /*#0000FF;*/
+	border-radius: 0;
+	border:0;
+}
+
+
+#logo-img {
+	background: url('./images/ahmu-log.png') no-repeat;
+	width: 150px;
+	height:150px;
+	margin: 10px 15px 0px 0;
+}
+
+.navbar-brand {
+	padding-top: 5px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.5em;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand p { /*ahmu*/
+	color: #fff000;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span { /*ahmu*/
+	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 10px;
+	/*padding-top: 20px: */
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+    text-align: center;
+}
+.nav.navbar-nav.navbar-right li:hover a {
+    color: black;
+
+}
+
+#nav-list a {
+	/*color: #FFFFFF;*/
+	color: black;
+	text-align: center;
+}
+
+/*#nav-list a:hover {
+	background-color: #E7E7E7;
+	background-color: yellow;
+}*/
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #0000000;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -40px;
+}
+
+#collapsable-nav {
+	color:#0000ff;
+	text-align: center;
+}
+
+
+#resources-tile, #protocols-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+
+}
+#resources-tile:hover, #protocols-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+#resources-tile {
+	background: url('./images/photo-1459.jpeg') no-repeat;
+	background-position: center;
+}
+
+#protocols-tile {
+	background: url('./images/photo-1593.jpeg') no-repeat;
+	background-position: center;
+}
+
+#map-tile {
+	background: url('./images/photo-1100.jpg') no-repeat;
+	background-position: center;
+}
+
+#resources-tile span, #protocols-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #0000;
+	color: blue;
+	opacity: .9;
+}
+/*end header*/
+
+/*footer*/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+#address, #contact {
+	line-height: 2;
+}
+#address > span, #contact > span {
+	font-size: 1.3em;
+}
+/*end of footer*/
+
+.container .jumbotron {
+	box-shadow: 0 0 50px #3f0c1f;
+	border: 2px solid #3f0c1f;
+}
+
+/*publications*/
+.column-container {
+	color: black;
+}
+/*end of publications*/
+
+@media (min-width: 1200px){
+	.container .jumbotron {
+		background: url('./images/IMG_3109-1200.jpg') no-repeat;
+		height: 675px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#logo-img {
+		background: url('./images/ahmu-log-100.png') no-repeat;
+		width: 100px;
+		height:100px;
+		margin: 5px 15px 5px 0;
+	}
+
+	.container .jumbotron {
+		background: url('./images/IMG_3109-1150.jpg') no-repeat;
+		height: 558px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.container .jumbotron {
+		background: url('./images/IMG_3109-1100.jpg') no-repeat;
+		height: 432px;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 5px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+	}
+	.navbar-brand  p {
+		text-transform: uppercase;
+		font-size: 6vw;
+		margin-top: 12px;
+	}
+
+	.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -65px;
+	}
+
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+	}
+
+	#resources-tile, #protocols-tile {
+		width:360px;
+		margin: 0 auto 15px;
+	}
+
+	.panel-footer {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.panel-footer section hr {
+		width: 50%;
+	}
+}
+
+@media (max-width: 479px) {
+	.navbar-brand h1 {
+		padding-top: 3px;
+		font-size: 10vw;
+	}
+
+	#resources-tile, #protocols-tile {
+		width:280px;
+		margin: 0 auto 15px;
+	}
+
+
+}
