@@ -186,15 +186,16 @@ body {
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.container .jumbotron {
-		background: url('./images/IMG_3109-1100.jpg') no-repeat;
+		background: url('./images/IMG_3109-768.jpg') no-repeat;
 		height: 432px;
 	}
 }
-@media (max-width: 767px) {
+@media (min-width: 478px) and (max-width: 767px) {
 	.navbar-brand {
 		padding-top: 5px;
 		height: 80px;
 	}
+
 	.navbar-brand h1 {
 		padding-top: 10px;
 	}
@@ -210,6 +211,7 @@ body {
 	}
 
 	.container .jumbotron {
+		background: url('./images/IMG_3109-768.jpg') no-repeat;
 		margin-top: 30px;
 		padding: 0;
 	}
@@ -239,6 +241,7 @@ body {
 		width:280px;
 		margin: 0 auto 15px;
 	}
+	
 
 
 }
