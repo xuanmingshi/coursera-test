@@ -233,9 +233,8 @@ body {
 
 @media (max-width: 479px) {
 	.navbar-brand h1 {
-		padding-top: 3px;
-		font-size: 6vw;
-	}
+		padding-top: 1.5px;
+			}
 
 	#resources-tile, #protocols-tile {
 		width:280px;
