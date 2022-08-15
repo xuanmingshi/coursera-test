@@ -94,7 +94,7 @@
 }
 
 
-#resources-tile, #protocols-tile, #map-tile {
+#resources-tile, #protocols-tile, #map-tile, #research-proj1 {
 	height: 250px;
 	width: 100%;
 	margin-bottom: 15px;
@@ -114,7 +114,7 @@
 }
 
 #research-proj1 {
-	background: url('./images/photo-1459.jpeg') no-repeat;
+	background: url('images/TBPFactorsB.jpg') no-repeat;
 	background-position: center;
 
 }
@@ -123,6 +123,7 @@
 	background: url('./images/photo-1593.jpeg') no-repeat;
 	background-position: center;
 }
+
 
 #map-tile {
 	background: url('./images/photo-1100.jpg') no-repeat;
@@ -393,7 +394,7 @@
 		padding: 0;
 	}
 
-	#resources-tile, #protocols-tile {
+	#resources-tile, #protocols-tile, #research-proj1 {
 		width:360px;
 		margin: 0 auto 15px;
 	}
@@ -425,7 +426,12 @@
 		padding-top: 1.5px;
 			}
 
-	#resources-tile, #protocols-tile {
+	#resources-tile, #protocols-tile  #research-proj1{
+		width:280px;
+		margin: 0 auto 15px;
+	}
+
+	#resources-tile, #protocols-tile  #research-proj1{
 		width:280px;
 		margin: 0 auto 15px;
 	}
