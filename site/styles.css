@@ -113,6 +113,12 @@
 	background-position: center;
 }
 
+#research-proj1 {
+	background: url('./images/photo-1459.jpeg') no-repeat;
+	background-position: center;
+
+}
+
 #protocols-tile {
 	background: url('./images/photo-1593.jpeg') no-repeat;
 	background-position: center;
@@ -253,7 +259,7 @@
 	border: 2px solid blue;
 	overflow: hidden;
 	width: 200px;
-	height: 200px;
+	height: 300px;
 	margin: 0 auto 15px;
 }
 
@@ -266,7 +272,7 @@
 	font-size: 1.2em;
 	text-transform: uppercase;
 	background-color: #000;
-	color: #fff;
+	color: white;
 	opacity: .8;
 }
 
@@ -278,9 +284,28 @@
 	margin-bottom: 50px;
 }
 
+
 .container .text-center {
 	color:black;
 }
+
+/*lab members*/
+
+/*research*/
+
+.research-photo {
+	margin-top: 5px;
+		margin-bottom:5px;
+		margin-left: 2px;
+		margin-right: 2px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 5px;
+		padding-right: 5px;
+}
+
+
+/*research*/
 
 /*publications*/
 .column-container {
@@ -307,12 +332,40 @@
 		background: url('./images/IMG_3109-1150.jpg') no-repeat;
 		height: 558px;
 	}
+
+	.research-photo {
+		margin-top: 5px;
+		margin-bottom:5px;
+		margin-left: 2px;
+		margin-right: 2px;
+		
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+
+
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.container .jumbotron {
 		background: url('./images/IMG_3109-768.jpg') no-repeat;
 		height: 432px;
 	}
+
+	.research-photo {
+		margin-top: 5px;
+		margin-bottom:5px;
+		margin-left: 2px;
+		margin-right: 2px;
+		
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	
 }
 @media (min-width: 478px) and (max-width: 767px) {
 	.navbar-brand {
@@ -353,6 +406,18 @@
 	.panel-footer section hr {
 		width: 50%;
 	}
+
+	.research-photo {
+		margin-top: 5px;
+		margin-bottom:5px;
+		margin-left: 2px;
+		margin-right: 2px;
+		
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 50px;
+		padding-right: 0px;
+	}
 }
 
 @media (max-width: 479px) {
@@ -373,5 +438,21 @@
 		float:left;
 		width: 100%;
 	}
+
+
+	.research-photo {
+		margin-top: 5px;
+		margin-bottom:5px;
+		margin-left: 2px;
+		margin-right: 2px;
+		
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 1px;
+		padding-right: 1px;
+		max-width: 100%;
+	}
+
+
 
 }
