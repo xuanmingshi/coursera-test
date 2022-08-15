@@ -312,7 +312,19 @@
 .column-container {
 	color: black;
 }
+
+.column-shadow {
+	margin-left: 60px;
+	margin-right: 60px;
+}
 /*end of publications*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
 
 @media (min-width: 1200px){
 	.container .jumbotron {
