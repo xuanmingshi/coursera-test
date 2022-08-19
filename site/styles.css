@@ -449,7 +449,7 @@
 	}
 
 	#welcome-photo {
-		width: 80%
+		width: 85%
 	}
 }
 
@@ -491,6 +491,8 @@
 		max-width: 100%;
 	}
 
-
+    #welcome-photo {
+		width: 100%
+	}
 
 }
