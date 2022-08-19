@@ -144,6 +144,7 @@
 }
 /*end header*/
 
+
 /*footer*/
 #footer-address-contact {
 	margin-top: 30px;
@@ -331,6 +332,11 @@
 		background: url('./images/IMG_3109-1200.jpg') no-repeat;
 		height: 675px;
 	}
+
+	#welcome-photo {
+		width: 95%
+	}
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
@@ -358,6 +364,10 @@
 		padding-right: 250px;
 	}
 
+	#welcome-photo {
+		width: 90%
+	}
+
 
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -376,6 +386,10 @@
 		padding-bottom: 10px;
 		padding-left: 100px;
 		padding-right: 100px;
+	}
+
+	#welcome-photo {
+		width: 85%
 	}
 
 	
@@ -406,6 +420,8 @@
 		padding: 0;
 	}
 
+
+
 	#resources-tile, #protocols-tile, #research-proj1 {
 		width:360px;
 		margin: 0 auto 15px;
@@ -430,6 +446,10 @@
 		padding-bottom: 10px;
 		padding-left: 50px;
 		padding-right: 0px;
+	}
+
+	#welcome-photo {
+		width: 80%
 	}
 }
 
