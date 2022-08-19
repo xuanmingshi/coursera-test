@@ -368,6 +368,12 @@
 		width: 90%
 	}
 
+	.column-shadow {
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 90%
+	}
+
 
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -390,6 +396,12 @@
 
 	#welcome-photo {
 		width: 85%
+	}
+
+	.column-shadow {
+		margin-left: 5px;
+		margin-right: 5px;
+		width: 90%
 	}
 
 	
@@ -451,6 +463,18 @@
 	#welcome-photo {
 		width: 85%
 	}
+
+	.column-shadow {
+		margin-left: 2px;
+		margin-right: 2px;
+
+	}
+
+	.column-shadow {
+		margin-left: 2px;
+		margin-right: 2px;
+		width: 90%
+	}
 }
 
 @media (max-width: 479px) {
@@ -493,6 +517,12 @@
 
     #welcome-photo {
 		width: 100%
+	}
+
+	.column-shadow {
+		margin-left: 2px;
+		margin-right: 2px;
+		width: 90%
 	}
 
 }
